@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <script
+      src="https://kit.fontawesome.com/1b46815675.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Kontakt meg</title>
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">SA</a>
+      <nav>
+        <ul id="navigasjon">
+          <li><a href="index.html">Hjem</a></li>
+          <li><a  href="portfolio.html">Portefølje</a></li>
+          <li><a href="ommeg.html">Om meg</a></li>
+          <li><a id="active" href="kontakt.html"><span class="under6">Kontakt</span></a></li>
+        </ul>
+        <a href="index.html"><div id="cv">Curriculum Vitae</div></a>
+      </nav>
+    </header>
+    <main>
+      <div id="kontakt">
+        <div id="kontaktinfo">
+          <p id="ingress">Kontakt</p>
+          <h1>Send meg en melding</h1>
+          <p>
+            Skriv en linje eller to til meg under. Legg gjerne igjen et
+            telefonnummer også, så ringer jeg så fort jeg ser meldingen din!
+            <span class="under3">Ser frem til å høre fra deg!</span>
+          </p>
+        </div>
+        <form>
+          <div id="inputs">
+            <div id="input1">
+            <label for="Navn"><span class="under4">Navn:</span></label>
+
+            <input  type="text" id="navn" name="navn" />
+          </div>
+            <div id="input2">
+            <label for="epost"><span class="under4">E-post:</span></label>
+
+            <input  type="email" id="epost" name="epost" />
+          </div>          
+          </div>
+          <label for="melding"><span class="under4">Melding:</span></label>
+          <textarea placeholder="Describe yourself here..." id="melding" rows="8" cols="50" name="melding">
+                 </textarea>
+                 <button id="submit" type="submit">Send melding!</button>
+
+        </form>
+      </div>
+    </main>
+    <aside>
+      <ul id="social">
+        <li>
+          <a href="mailto:stig.ark@gmail.com"
+            ><i class="fa-solid fa-at fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:stig.ark@gmail.com"
+            ><i class="fa-brands fa-linkedin-in fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:stig.ark@gmail.com"
+            ><i class="fa-brands fa-github fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:stig.ark@gmail.com"
+            ><i class="fa-brands fa-instagram fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </aside>
+
+    <footer>
+      <div id="footer2">
+        Laget av Stig Ark <i class="fa-solid fa-copyright"></i> 2022
+      </div>
+      <div id="footer1"><button>Kontakt meg!</button></div>
+    </footer>
+    <div id="darkmode"></div>
+  </body>
+</html>
